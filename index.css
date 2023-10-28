@@ -12,6 +12,11 @@ body, .nav__item a, .header__contact-text, .wrap-form__subheading, .label {
     font-weight: 600;
 }
 
+.wrap-section__price {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
 .nav__item a {
     font-size: 1.1rem;
     font-weight: 400;
@@ -124,6 +129,9 @@ a {
 }
 
 .wrap-section__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 20px 0 0;
     width: 205px;
     height: 50px;
